@@ -1,0 +1,263 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Oswald, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Oswald, sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.top_manu {}
+
+.top_manu .navbar {}
+
+.top_manu .navbar .nav-item {}
+
+.top_manu .navbar .nav-item .nav-link {
+    color: black;
+    font-weight: 600;
+    padding-right: 32px;
+    font-size: 13px;
+}
+
+.top-header {
+    margin: 63px 0px 30px;
+}
+
+.top-header .inner-content {
+    padding: 30px;
+}
+
+.top-header .inner-content h1 {
+    color: rgb(54, 57, 88);
+    font-size: 54px;
+}
+
+.top-header .inner-content h2 {
+    color: rgb(255, 131, 103);
+    font-size: 59px;
+}
+
+.top-header .inner-content p {
+    font-weight: 600;
+    margin-top: 19px;
+}
+
+.top-header .inner-content .btn {
+    background: rgb(255, 131, 103);
+    border: none;
+    padding: 14px 38px;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+.top-header .img-section {
+    padding-left: 11px;
+}
+
+.top-header .img-section img {
+    width: 400px;
+}
+
+.About_section {
+    margin: 77px 0px 20px;
+}
+
+.About_section .img-section {}
+
+.About_section .img-section img {
+    width: 344px;
+}
+
+.About_section .inner-content {
+    padding-left: 68px;
+}
+
+.About_section .inner-content h1 {
+    color: rgb(54, 57, 88);
+    font-size: 31px;
+}
+
+.About_section .inner-content p {
+    margin-top: 35px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.About_section .inner-content .btn {
+    margin-top: 30px;
+    padding: 14px 40px;
+    background: rgb(255, 131, 103);
+    border: none;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.About_section .inner-content .btn .fa {}
+
+.courses {
+    background: rgb(248, 249, 252);
+    padding: 74px 0px 85px;
+}
+
+.courses .datalist {
+    display: flex;
+    justify-content: center;
+}
+
+.datalist2 {
+    width: 33.33%;
+    margin: 0px 21px;
+    border-radius: 10px;
+    background: white;
+    transition: all 0.5s ease 0s;
+}
+
+.datalist2:hover {
+    box-shadow: rgb(242, 237, 237) -1px 13px 20px 5px;
+}
+
+.para p {
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.para span {
+    color: rgb(255, 131, 103);
+}
+
+.data {}
+
+.data img {
+    width: 266px;
+    margin-left: -4px;
+    margin-top: 10px;
+}
+
+.data h3 {
+    font-size: 19px;
+    color: rgb(65, 57, 96);
+    margin-top: 16px;
+}
+
+.data p {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+
+.data a {
+    border-radius: 30px;
+    padding: 9px 20px;
+    background: rgb(51, 204, 102);
+    color: white;
+    transition: all 0.5s ease 0s;
+}
+
+.data a:hover {
+    box-shadow: rgb(96, 89, 89) 0px 0px 7px;
+}
+
+.data ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+
+.data ul li {
+    list-style: none;
+    color: rgb(102, 102, 102);
+}
+
+.inquiry_section {
+    margin: 30px 0px;
+    padding-top: 65px;
+}
+
+.inquiry_section .inner_content {}
+
+.inquiry_section .inner_content img {
+    width: 730px;
+    margin-left: 178px;
+}
+
+.inquiry_section .inner_content h1 {
+    transform: translate(223px, -116px);
+    color: white;
+    font-family: Oswald;
+}
+
+.inquiry_section .inner_content .btn {
+    background: rgb(255, 131, 103);
+    border: none;
+    padding: 14px 38px;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 12px;
+    transform: translate(697px, -182px);
+}
+
+.inquiry_section .inner_content .fa {}
+
+.footer_section {}
+
+.footer_section .inner_footer {
+    width: 1024px;
+    text-align: center;
+}
+
+.footer_section .inner_footer h2 {
+    color: rgba(0, 0, 0, 0.39);
+    font-size: 22px;
+}
+
+.footer_section .inner_footer span {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -27px;
+    display: block;
+    color: rgb(54, 57, 88);
+    font-family: Oswald;
+}
+
+.footer_section ul {
+    display: flex;
+    text-align: center;
+    margin-left: 43%;
+    margin-top: -8px;
+}
+
+.footer_section .inner_footer ul li {}
+
+.footer_section .inner_footer ul li img {
+    width: 31px;
+    text-align: center;
+    margin-left: 9px;
+}

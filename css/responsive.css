@@ -1,0 +1,108 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    //CSS
+}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .inner-quta {
+        text-align: center;
+        /* margin-right: 0%; */
+        padding-right: 2px;
+        margin-left: 47px;
+        margin-top: 20px;
+    }
+    .inner-img {
+        /* text-align: right; */
+        margin-left: 40%;
+    }
+    .inner-event img {
+        width: 100%;
+        border-radius: 4px;
+        box-shadow: 6px 7px 2px #e4dcdc;
+        margin-top: 20px;
+    }
+    .inner-event a {
+        /* text-align: center !important; */
+        color: #fb2056;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        margin-left: 35%;
+        /* padding-bottom: 10px; */
+    }
+    .explore-section .inner-explore h1 {
+        color: white;
+        font-weight: 900;
+        text-align: center;
+    }
+    .explore-section .inner-explore span {
+        background: #fb2056;
+        padding: 0px -9px;
+        display: block;
+        width: 64px;
+        height: 5px;
+        margin-bottom: 42px;
+        margin-left: 42%;
+    }
+    .explore-section .inner-explore p {
+        color: white;
+        font-size: 11px;
+        text-align: center;
+    }
+    .explore-section .inner-explore a {
+        color: #fb2056;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        /* text-align: center; */
+        margin-left: 35%;
+    }
+    .tour-section .inner-tour h1 {
+        font: uppercase;
+        text-transform: uppercase;
+        font-size: 31px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .tour-section .inner-tour span {
+        background: #fb2056;
+        padding: 0px -9px;
+        display: block;
+        width: 64px;
+        height: 5px;
+        margin-bottom: 42px;
+        margin-left: 39%;
+    }
+    .tour-section .inner-tour a {
+        color: black;
+        letter-spacing: 5px;
+        padding: 8px 19px;
+        border: 2px solid #fb2056;
+        border-radius: 30px;
+        transition: 0.5s;
+        margin-left: 26%;
+    }
+    .tour-section .inner-img-section {
+        margin-top: 39px;
+    }
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .inner-quta {
+        text-align: center;
+        /* margin-right: 0%; */
+        padding-right: 55px;
+        margin-left: 38px;
+    }
+}
